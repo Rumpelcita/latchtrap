@@ -26,13 +26,13 @@ tw-passage #black-class {
 (live: 2s)[pshhhh(stop:)]
 (live: 4s)[pshhhh(stop:)]
 (live: 6s)[All incidents were avoided. You now [[flush the toilet]].(stop:)]</tw-passagedata>
-<tw-passagedata pid="4" name="sit down to do your thing" tags="" position="798,589">You sit down and try to do your business. Your butt touches the toilet seat.
+<tw-passagedata pid="4" name="sit down to do your thing" tags="" position="797,589">You sit down and try to do your business. Your butt touches the toilet seat.
 
 (live: 2s)[pshhhh(stop:)]
 (live: 4s)[Don&#39;t let the existencial dread sink in.(stop:)]
 (live:6s)[pshhhh(stop:)]
 (live:8s)[Just don&#39;t. Okay?(stop:)]
-(live:10s)[You are done. You [[flush the toilet]].(stop:)]</tw-passagedata>
+(live:10s)[You [[flush the toilet]].(stop:)]</tw-passagedata>
 <tw-passagedata pid="5" name="flush the toilet" tags="" position="656,764">(set: $hands_washed to false)
 You are done. Now you can wash your hands(click: &quot;wash your hands&quot;)[(set: $hands_washed to true)] and [[leave]].</tw-passagedata>
 <tw-passagedata pid="6" name="leave" tags="" position="656,914">(if: $hands_washed is false)[You didn&#39;t wash your hands! Gross!
